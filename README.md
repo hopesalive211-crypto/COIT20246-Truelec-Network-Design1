@@ -520,3 +520,169 @@ This assessment follows the NIST SP 800-30 framework and considers 8 of the 12 i
 
 ## Conclusion
 Implementing these three controls will significantly reduce the risk to the customer database while providing a strong return on investment through breach prevention and compliance adherence.<img width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/ac634686-01ba-46d1-a1e0-43c72c9188fe" />
+# Ethical and Social Issues Analysis
+
+## Introduction
+Truelec, as an electrical contracting business handling sensitive client and project data, faces significant ethical and social responsibilities in data management and cybersecurity.
+
+## Data Collection Types
+
+### 1. Customer Data
+- **Personal Information**: Names, addresses, contact details, identification documents
+- **Financial Data**: Bank account details, credit card information, payment history
+- **Project Information**: Property details, building plans, electrical specifications
+- **Communication Records**: Emails, meeting notes, contract discussions
+
+### 2. Employee Data
+- **Personal Identification**: Tax file numbers, licenses, qualifications
+- **Employment Records**: Salary information, performance reviews, disciplinary records
+- **Health Information**: Medical certificates, workers compensation claims
+- **Location Data**: Site attendance, vehicle tracking (if applicable)
+
+### 3. Business Data
+- **Financial Records**: Invoices, quotes, profit margins, tax information
+- **Intellectual Property**: Project designs, proprietary methodologies, trade secrets
+- **Operational Data**: Supply chain information, contractor details, equipment specs
+
+## Potential Risks and Threats
+
+### 1. Unauthorized Access
+- **Risk**: External hackers or malicious insiders accessing sensitive data
+- **Impact**: Identity theft, financial fraud, corporate espionage
+- **Example**: Database breach exposing customer financial information
+
+### 2. Data Breaches
+- **Risk**: Accidental or intentional exposure of confidential information
+- **Impact**: Reputational damage, legal liability, loss of trust
+- **Example**: Unsecured backup tapes containing employee PII
+
+### 3. Data Misuse
+- **Risk**: Using collected data for purposes beyond original intent
+- **Impact**: Privacy violations, regulatory penalties, ethical concerns
+- **Example**: Selling customer contact information to third parties
+
+### 4. Surveillance Concerns
+- **Risk**: Over-monitoring of employees through IoT sensors and CCTV
+- **Impact**: Privacy invasion, reduced trust, negative workplace culture
+- **Example**: Using access card data to monitor employee movements excessively
+
+## Regulatory Framework
+
+### 1. Privacy Act 1988 (Australia)
+- **Australian Privacy Principles (APPs)**: 13 principles governing data handling
+- **Key Requirements**:
+  - APP 1: Open and transparent management of personal information
+  - APP 6: Use or disclosure of personal information
+  - APP 11: Security of personal information
+- **Penalties**: Up to $2.1 million for serious or repeated breaches
+
+### 2. Notifiable Data Breaches (NDB) Scheme
+- **Requirement**: Mandatory reporting of eligible data breaches
+- **Timeframe**: Must notify within 30 days of awareness
+- **Notification**: Must inform affected individuals and OAIC
+- **Exceptions**: Only if breach is unlikely to result in serious harm
+
+### 3. State-Based Regulations
+- **Victoria**: Privacy and Data Protection Act 2014
+- **Queensland**: Information Privacy Act 2009
+- **Other States**: Similar legislation with state-specific requirements
+
+### 4. Industry-Specific Regulations
+- **Electrical Safety**: State-based electrical licensing requirements
+- **Building Codes**: Australian Building Codes Board requirements
+- **Contract Law**: Australian Consumer Law protections
+
+## Impact Analysis of Data Breach
+
+### Affected Parties:
+
+#### 1. Customers
+- **Financial Impact**: Identity theft leading to monetary losses
+- **Privacy Impact**: Personal information exposed publicly
+- **Trust Impact**: Loss of confidence in Truelec's security
+- **Example**: Customer's home address and electrical plans exposed
+
+#### 2. Employees
+- **Identity Theft Risk**: Personal and financial information compromised
+- **Employment Impact**: Sensitive employment records exposed
+- **Psychological Impact**: Stress and anxiety from privacy violation
+- **Example**: Employee tax file numbers and salary details leaked
+
+#### 3. Company
+- **Financial Penalties**: Up to $2.1 million under Privacy Act
+- **Reputational Damage**: Loss of business and client trust
+- **Legal Costs**: Litigation and settlement expenses
+- **Operational Impact**: Business disruption during investigation
+- **Example**: Class action lawsuit from affected customers
+
+#### 4. Shareholders/Investors
+- **Financial Loss**: Decreased company value and stock price
+- **Confidence Impact**: Reduced investor trust in management
+- **Regulatory Scrutiny**: Increased oversight and compliance costs
+- **Example**: Stock price drop following public breach announcement
+
+#### 5. Regulatory Bodies
+- **Enforcement Actions**: Investigations and compliance orders
+- **Resource Impact**: Time and resources spent on investigation
+- **Policy Review**: Potential regulatory changes based on breach
+- **Example**: OAIC investigation leading to new industry guidelines
+
+#### 6. Industry Peers
+- **Increased Scrutiny**: Tighter regulations affecting all companies
+- **Consumer Distrust**: General loss of trust in industry security
+- **Competitive Impact**: Reputational damage to entire sector
+- **Example**: Industry-wide security audits ordered by government
+
+## Ethical Principles to Consider
+
+### 1. Privacy by Design
+- **Principle**: Build privacy protections into systems from inception
+- **Application**: Default encryption, minimal data collection, access controls
+- **Benefit**: Proactive privacy protection rather than reactive fixes
+
+### 2. Transparency
+- **Principle**: Clear communication about data practices
+- **Application**: Privacy policy, breach notification procedures
+- **Benefit**: Informed consent and trust building
+
+### 3. Accountability
+- **Principle**: Responsibility for data protection measures
+- **Application**: Designated privacy officer, regular audits
+- **Benefit**: Demonstrated commitment to data protection
+
+### 4. Data Minimization
+- **Principle**: Collect only necessary data for specific purposes
+- **Application**: Review data collection practices, implement retention policies
+- **Benefit**: Reduced risk exposure and compliance burden
+
+## Recommendations
+
+### 1. Privacy Impact Assessment
+- Conduct regular PIAs for new projects and systems
+- Document data flows and protection measures
+- Review and update annually
+
+### 2. Employee Training
+- Regular privacy and security awareness training
+- Clear policies on data handling and reporting procedures
+- Consequences for policy violations clearly communicated
+
+### 3. Technical Safeguards
+- Implement encryption for data at rest and in transit
+- Regular security assessments and penetration testing
+- Incident response plan with clear breach notification procedures
+
+### 4. Governance Framework
+- Appoint Privacy Officer with appropriate authority
+- Regular board-level reporting on privacy matters
+- Independent audits of privacy practices
+
+## Conclusion
+Truelec has both legal obligations and ethical responsibilities to protect the data it collects. A proactive approach to privacy and security, grounded in ethical principles and compliance requirements, will not only prevent costly breaches but also build trust with customers and stakeholders.
+
+## References
+1. Office of the Australian Information Commissioner. (2023). *Australian Privacy Principles*
+2. Australian Government. (2023). *Privacy Act 1988*
+3. ISO/IEC 27701:2019. *Privacy Information Management*
+4. NIST Privacy Framework (2020)
+5. Australian Cyber Security Centre. (2023). *Essential Eight Maturity Model*<img width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/c14c3c0e-338c-41f3-be99-96bb43d08053" />
