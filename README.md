@@ -228,3 +228,127 @@ For fair comparison, we standardized on these specifications:
 - **Backup**: Azure Backup (daily)
 
 **Pricing Calculation:**
+Monthly cost per VM:
+
+· Compute: $320.40
+· Storage: $65.25
+· Backup: $12.50
+· Bandwidth: $52.00
+  Total per VM/month: $450.15
+  
+**5-Year Cost Projection:**
+1 VM for 60 months: $450.15 × 60 = $27,009
+7 VMs for 60 months: $27,009 × 7 = $189,063
+
+## On-Premise Cost Analysis
+
+### New Server Purchase Option
+**Dell PowerEdge T350 Specifications:**
+- CPU: Intel Xeon E-2314 (4 core)
+- RAM: 16GB DDR4
+- Storage: 2× 256GB SSD RAID 1
+- Warranty: 5 years
+
+**Cost Breakdown:**<img width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/b18129c5-2b3b-4abc-8ec4-b726eebd5720" />
+Per Server Cost: $12,000
+7 Servers: $84,000
+5-year Maintenance: $25,000
+Power/Cooling (5 years): $10,000
+Network Upgrades: $15,000
+Total 5-year TCO: $134,000
+
+## Total Cost Comparison
+| Option | 1-Year Cost | 5-Year TCO | Notes |
+|--------|-------------|------------|-------|
+| **Azure Cloud** | $37,812 | $189,063 | OpEx model |
+| **AWS Cloud** | $40,320 | $201,600 | OpEx model |
+| **On-Premise** | $134,000 | $134,000 | CapEx model (initial) |
+| **Hybrid Approach** | $85,000 | $165,000 | Mix of both |
+
+## Advantages and Disadvantages
+
+### Cloud VMs Advantages:
+1. **No Capital Expenditure** - Pay monthly operational costs
+2. **Scalability** - Easily add resources as needed
+3. **Built-in Redundancy** - Provider handles hardware failures
+4. **Automatic Updates** - OS and security patches managed
+5. **Disaster Recovery** - Built-in backup and geo-redundancy
+
+### Cloud VMs Disadvantages:
+1. **Ongoing Costs** - Never-ending monthly payments
+2. **Internet Dependency** - Requires reliable internet
+3. **Data Transfer Costs** - Can be expensive for large data
+4. **Less Control** - Limited hardware customization
+5. **Potential Vendor Lock-in** - Migration can be complex
+
+### On-Premise Advantages:
+1. **One-time Cost** - After purchase, only maintenance
+2. **Full Control** - Complete hardware and software control
+3. **No Internet Dependency** - Internal network access
+4. **Predictable Costs** - Fixed maintenance fees
+5. **Data Sovereignty** - Complete control over data location
+
+### On-Premise Disadvantages:
+1. **High Initial Cost** - Large capital expenditure
+2. **Hardware Refresh** - Need replacement every 5 years
+3. **Maintenance Burden** - IT staff required for upkeep
+4. **Limited Scalability** - Hardware limits expansion
+5. **Disaster Recovery Cost** - Additional investment needed
+
+## Recommendation
+
+### Recommended Provider: Microsoft Azure
+
+**Justification:**
+1. **Cost Effectiveness**: $12,537 cheaper than AWS over 5 years
+2. **Integration**: Better integration with existing Microsoft products
+3. **Compliance**: Meets Australian data sovereignty requirements
+4. **Support**: Local Australian support team available
+5. **Hybrid Capabilities**: Easier integration with on-premise systems
+
+### Implementation Strategy:
+**Phase 1 (Months 1-3):**
+- Migrate development and testing servers to Azure
+- Implement Azure Site Recovery for backup
+- Train IT staff on Azure management
+
+**Phase 2 (Months 4-9):**
+- Migrate branch office servers to Azure VMs
+- Implement Azure ExpressRoute for reliable connection
+- Configure Azure Security Center
+
+**Phase 3 (Months 10-12):**
+- Migrate remaining headquarters servers
+- Implement full disaster recovery in Azure
+- Optimize costs with reserved instances
+
+## Cost Optimization Recommendations
+1. **Reserved Instances**: Commit to 1-3 years for 40% savings
+2. **Auto-scaling**: Scale down during non-business hours
+3. **Storage Tiering**: Use appropriate storage types
+4. **Bandwidth Management**: Schedule large transfers for off-peak
+5. **Regular Review**: Monthly cost analysis and optimization
+
+## Migration Plan
+1. **Assessment**: 2 weeks - Inventory and dependencies
+2. **Planning**: 4 weeks - Detailed migration plan
+3. **Pilot**: 4 weeks - Test with non-critical server
+4. **Migration**: 12 weeks - Phased migration of all servers
+5. **Optimization**: Ongoing - Continuous improvement
+
+## Risk Mitigation
+1. **Data Loss**: Comprehensive backup strategy
+2. **Downtime**: Phased migration with rollback plan
+3. **Cost Overruns**: Budget alerts and monitoring
+4. **Skill Gap**: Training program for IT staff
+5. **Compliance**: Regular audit and compliance checks
+
+## Conclusion
+While on-premise has lower 5-year TCO, we recommend Azure cloud for:
+- Reduced management overhead
+- Built-in disaster recovery
+- Business continuity
+- Future scalability
+- Access to advanced AI/ML services
+
+The higher operational cost is justified by increased reliability, security, and business agility.
