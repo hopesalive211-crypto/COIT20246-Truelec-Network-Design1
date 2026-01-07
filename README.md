@@ -35,3 +35,57 @@ This project involves designing a comprehensive network solution for Truelec, an
 2. Open diagrams in the `diagrams/` folder
 3. Check cloud pricing exports in `cloud_pricing/` folder
  width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/f047956c-b2e7-4d26-a19e-f3b3fd37eed9" />
+# Project Plan
+
+## Group Information
+- **Group Number**: [Your Group Number]
+- **Course**: COIT20246
+- **Start Date**: [Date]
+- **End Date**: [Date]
+
+## Communication Plan
+### Meeting Schedule
+- **Weekly Meetings**: Every Sunday, 7:00 PM - 8:30 PM (AEST)
+- **Mid-week Check-ins**: Every Wednesday, 8:00 PM - 8:30 PM (AEST)
+- **Emergency Meetings**: As needed via WhatsApp group
+
+### Communication Tools
+- **Primary**: Zoom for video meetings
+- **Secondary**: Microsoft Teams for chat
+- **File Sharing**: GitHub Repository
+- **Task Management**: Trello board
+
+### Team Roles
+- **Student A**: Network Design Lead, Documentation Manager
+- **Student B**: Security Assessment Lead, Cloud Services Analyst
+
+## Project Timeline
+| Week | Tasks | Responsible | Status |
+|------|-------|-------------|--------|
+| 1-2 | Project Planning, Repository Setup | Both | Complete |
+| 3-4 | Network Design and Diagrams | Student A | Complete |
+| 5-6 | Cloud Services Analysis | Student B | Complete |
+| 7-8 | Security Risk Assessment | Both | Complete |
+| 9-10 | Ethical Analysis and Report Writing | Both | Complete |
+| 11-12 | Final Review and Presentation | Both | In Progress |
+
+## Milestones
+1. ✅ Week 4: Network Design Completed
+2. ✅ Week 6: Cloud Analysis Completed
+3. ✅ Week 8: Risk Assessment Completed
+4. ✅ Week 10: First Draft of Report
+5. ⏳ Week 12: Final Submission
+
+## Risk Management
+| Risk | Probability | Impact | Mitigation Strategy |
+|------|------------|--------|---------------------|
+| Team member unavailability | Medium | High | Regular check-ins, clear task allocation |
+| Technical difficulties | Low | Medium | Backup files, regular commits |
+| Scope creep | Medium | Medium | Clear requirements, regular review |
+| Time constraints | High | High | Strict timeline, priority-based work |
+
+## Success Criteria
+1. All tasks completed by deadline
+2. Professional quality report
+3. Effective team collaboration
+4. Meeting all project requirements
