@@ -199,3 +199,32 @@ Based on Student IDs: 12345678 and 12234506
 3. **Phase 3**: WiFi implementation
 4. **Phase 4**: Security policy enforcement
 5. **Phase 5**: Testing and optimization<img width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/8a611f9e-dafc-45db-85d8-82e35cd35fe8" />
+# Cloud Services Analysis
+
+## Current Infrastructure Analysis
+Truelec currently operates:
+- **Headquarters**: 3 Dell PowerEdge Tower Servers (5 years old)
+- **Each Branch**: 1 Dell PowerEdge Tower Server
+- **Total Servers**: 7 (3 HQ + 4 branches)
+
+## Cloud VM Specifications
+For fair comparison, we standardized on these specifications:
+- **vCPUs**: 4
+- **RAM**: 16GB
+- **Storage**: 256GB SSD
+- **OS**: Windows Server 2022 Standard
+- **Region**: Australia East/Sydney
+- **Bandwidth**: 1Gbps standard tier
+
+## Cloud Provider Comparison
+
+### 1. Microsoft Azure
+**Configuration Details:**
+- **VM Size**: D4s v3
+- **Region**: Australia East
+- **OS**: Windows Server 2022
+- **Storage**: 256GB Premium SSD
+- **Networking**: Standard v2
+- **Backup**: Azure Backup (daily)
+
+**Pricing Calculation:**
