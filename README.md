@@ -352,3 +352,171 @@ While on-premise has lower 5-year TCO, we recommend Azure cloud for:
 - Access to advanced AI/ML services
 
 The higher operational cost is justified by increased reliability, security, and business agility.
+# Cybersecurity Risk Assessment
+
+## Risk Assessment Overview
+This assessment follows the NIST SP 800-30 framework and considers 8 of the 12 information security threats as required.
+
+## Assets Identified
+
+### Data Assets (4 minimum required):
+1. **Customer Database** - Contains client information, project history, financial data
+2. **Financial Records** - Accounting data, payment information, tax records
+3. **Project Designs** - Electrical schematics, building plans, intellectual property
+4. **Employee PII** - Personal identification information, qualifications, payroll data
+
+### Software Assets:
+1. CRM System (Salesforce)
+2. Accounting Software (MYOB)
+3. Project Management Tools
+4. Booking Application
+
+### Hardware Assets:
+1. Servers (physical and virtual)
+2. Network Equipment
+3. Workstations and Laptops
+4. Mobile Devices
+
+### People Assets:
+1. IT Administrators
+2. System Users
+3. Management Team
+4. External Contractors
+
+## Risk Assessment Matrix
+*(Complete matrix available in risk_assessment.xlsx)*
+
+![Risk Matrix Screenshot](screenshots/risk_matrix.png)
+
+### Top 5 Identified Risks:
+
+| # | Asset | Threat | Vulnerability | Likelihood | Impact | Risk Level |
+|---|-------|--------|---------------|------------|--------|------------|
+| 1 | Customer Database | Unauthorized Access | Weak authentication | Medium | High | High |
+| 2 | Financial Records | Ransomware Attack | No offline backups | Medium | High | High |
+| 3 | Network Infrastructure | DDoS Attack | No DDoS protection | Medium | Medium | Medium |
+| 4 | Employee PII | Data Breach | Unencrypted storage | Medium | High | High |
+| 5 | Project Designs | Intellectual Property Theft | Poor access controls | Low | High | Medium |
+
+## Highest Risk Asset: Customer Database
+
+### Risk Details:
+- **Asset Value**: High (critical business data)
+- **Threat**: Unauthorized access by external attackers or malicious insiders
+- **Vulnerability**: Single-factor authentication, weak password policies
+- **Current Controls**: Basic firewall, antivirus software
+- **Risk Level**: High (Likelihood: Medium, Impact: High)
+
+## Recommended Security Controls
+
+### Control 1: Multi-Factor Authentication (MFA)
+**NIST Control**: IA-2 Identification and Authentication
+
+**Implementation Details:**
+- Deploy Microsoft Azure AD with MFA for all database access
+- Use Microsoft Authenticator app or hardware tokens
+- Enforce MFA for all administrative access
+- Implement conditional access policies
+
+**Risk Reduction:**
+- Reduces likelihood of unauthorized access from Medium to Low
+- Even with stolen credentials, attackers cannot access system
+- Provides audit trail of all authentication attempts
+
+**Network Integration:**
+- Integrate with existing Active Directory
+- Implement at firewall level for VPN access
+- Apply to all database management interfaces
+
+**User Impact:**
+- Additional 10-15 seconds during login
+- Initial setup time for mobile app configuration
+- Training required for all users
+
+### Control 2: Database Encryption
+**NIST Control**: SC-28 Protection of Information at Rest
+
+**Implementation Details:**
+- Enable Transparent Data Encryption (TDE) on SQL Server
+- Implement Always Encrypted for sensitive columns
+- Use Azure Key Vault for encryption key management
+- Encrypt backup files using AES-256
+
+**Risk Reduction:**
+- Reduces impact of data theft from High to Low
+- Renders stolen data unreadable
+- Meets compliance requirements (Privacy Act)
+
+**Network Integration:**
+- Requires SSL/TLS for all database connections
+- Update backup procedures to handle encrypted data
+- Modify application connection strings
+
+**User Impact:**
+- 3-5% performance overhead on database operations
+- Additional storage space for encrypted data
+- Modified backup and restore procedures
+
+### Control 3: Database Activity Monitoring (DAM)
+**NIST Control**: AU-6 Audit Review, Analysis, and Reporting
+
+**Implementation Details:**
+- Deploy IBM Guardium or similar DAM solution
+- Monitor all SQL queries in real-time
+- Implement anomaly detection for suspicious patterns
+- Create alerts for unauthorized access attempts
+
+**Risk Reduction:**
+- Reduces likelihood of undetected breaches
+- Enables rapid incident response
+- Provides forensic capabilities
+
+**Network Integration:**
+- Deploy network taps or span ports for monitoring
+- Integrate with SIEM system (Splunk/LogRhythm)
+- Connect to existing security operations center
+
+**User Impact:**
+- Minimal performance impact (<1%)
+- Additional training for security team
+- Regular review of alerts and reports
+
+## Implementation Priority
+
+### Phase 1 (Immediate - 30 days):
+1. Implement MFA for all database administrators
+2. Enable TDE on production databases
+3. Basic audit logging configuration
+
+### Phase 2 (Short-term - 90 days):
+1. Full MFA rollout for all users
+2. Deploy DAM solution
+3. Implement column-level encryption for sensitive data
+
+### Phase 3 (Medium-term - 180 days):
+1. Integrate with SIEM system
+2. Implement advanced anomaly detection
+3. Regular security assessment and tuning
+
+## Cost-Benefit Analysis
+
+| Control | Implementation Cost | Annual Maintenance | Risk Reduction Value | ROI Period |
+|---------|-------------------|-------------------|---------------------|------------|
+| MFA | $5,000 | $1,200 | Prevents data breach ($500k+) | < 3 months |
+| Encryption | $8,000 | $800 | Avoids compliance fines ($2.1M) | < 6 months |
+| DAM | $15,000 | $3,000 | Early breach detection ($1M+) | < 18 months |
+
+## Compliance Considerations
+1. **Privacy Act 1988**: Requires reasonable steps to protect personal information
+2. **Notifiable Data Breaches Scheme**: Mandatory reporting of eligible breaches
+3. **ISO 27001**: Information security management best practices
+4. **PCI DSS**: If handling credit card payments
+
+## Monitoring and Review
+1. **Monthly**: Review access logs and anomaly reports
+2. **Quarterly**: Security control effectiveness assessment
+3. **Annually**: Full risk assessment refresh
+4. **Continuous**: Real-time monitoring and alerting
+
+## Conclusion
+Implementing these three controls will significantly reduce the risk to the customer database while providing a strong return on investment through breach prevention and compliance adherence.<img width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/ac634686-01ba-46d1-a1e0-43c72c9188fe" />
