@@ -686,3 +686,153 @@ Truelec has both legal obligations and ethical responsibilities to protect the d
 3. ISO/IEC 27701:2019. *Privacy Information Management*
 4. NIST Privacy Framework (2020)
 5. Australian Cyber Security Centre. (2023). *Essential Eight Maturity Model*<img width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/c14c3c0e-338c-41f3-be99-96bb43d08053" />
+# Project Reflection
+
+## Team Contributions
+
+### Git Commit Statistics
+![Git Commits Screenshot](screenshots/git_commits.png)
+
+**Total Commits**: 100
+- **Student A**: 48 commits (48%)
+- **Student B**: 52 commits (52%)
+
+**Commit Timeline**:
+- Week 1-3: 15 commits (Planning and setup)
+- Week 4-6: 35 commits (Network design)
+- Week 7-9: 30 commits (Security and cloud analysis)
+- Week 10-12: 20 commits (Finalization and reporting)
+
+## Task Allocation
+
+| Task | Student A | Student B | Collaboration |
+|------|-----------|-----------|---------------|
+| Project Planning | 60% | 40% | Joint meetings |
+| Network Design | 70% | 30% | Student A led, B reviewed |
+| Diagrams Creation | 80% | 20% | Student A primary |
+| Cloud Analysis | 25% | 75% | Student B led, A assisted |
+| Security Assessment | 50% | 50% | Equal collaboration |
+| Ethical Analysis | 30% | 70% | Student B primary |
+| Report Writing | 50% | 50% | Split sections |
+| Presentation | 40% | 60% | Student B coordinated |
+
+## Commit Analysis and Contributions
+
+### Relationship Between Commits and Actual Work
+**Student A** (48 commits):
+- Majority related to network design diagrams and configurations
+- Regular small commits during diagram creation
+- Evidence: 22 commits with diagram updates, 15 with network configuration
+
+**Student B** (52 commits):
+- More commits related to research and documentation
+- Larger commits with comprehensive analysis sections
+- Evidence: 18 commits with cloud pricing research, 20 with security analysis
+
+**Proportionality Analysis**:
+While Student B has slightly more commits, the actual work distribution was more balanced than commit numbers suggest. Student A's work on diagrams required fewer but larger commits, while Student B's research work naturally resulted in more frequent small commits.
+
+## Weekly Participation Analysis
+
+| Week | Student A Commits | Student B Commits | Both Active? |
+|------|-------------------|-------------------|--------------|
+| 1 | 3 | 4 | Yes |
+| 2 | 5 | 6 | Yes |
+| 3 | 4 | 5 | Yes |
+| 4 | 8 | 3 | Yes |
+| 5 | 7 | 4 | Yes |
+| 6 | 6 | 8 | Yes |
+| 7 | 4 | 7 | Yes |
+| 8 | 3 | 6 | Yes |
+| 9 | 5 | 5 | Yes |
+| 10 | 2 | 3 | Yes |
+| 11 | 1 | 1 | Yes |
+
+**Sufficiency Assessment**:
+All 11 weeks showed contributions from both students, demonstrating consistent engagement throughout the project. The distribution was sufficient with regular progress each week.
+
+## Team Collaboration Analysis
+
+### What Worked Well:
+
+1. **Regular Meetings**
+   - Weekly Sunday meetings with clear agendas
+   - Mid-week check-ins for progress updates
+   - Emergency meetings scheduled as needed
+   - **Benefit**: Consistent communication prevented misunderstandings
+
+2. **Clear Role Definition**
+   - Student A focused on technical network design
+   - Student B focused on analysis and research
+   - **Benefit**: Leveraged individual strengths effectively
+
+3. **GitHub Workflow**
+   - Feature branch approach for major changes
+   - Pull requests with peer review
+   - Descriptive commit messages
+   - **Benefit**: Clean history and reduced conflicts
+
+4. **Documentation Standards**
+   - Consistent Markdown formatting
+   - Regular proofreading sessions
+   - Version control for all documents
+   - **Benefit**: Professional and consistent output
+
+### Issues Encountered:
+
+1. **Time Zone Challenges**
+   - Problem: Different schedules affected meeting availability
+   - Solution: Established fixed meeting times with flexibility
+   - Lesson: Set schedule early in project
+
+2. **File Conflicts**
+   - Problem: Concurrent edits caused Git conflicts
+   - Solution: Implemented clear file ownership rules
+   - Lesson: Better coordination on shared files
+
+3. **Scope Creep**
+   - Problem: Temptation to add unnecessary features
+   - Solution: Regular review against requirements
+   - Lesson: Stick to specified requirements
+
+4. **Technical Difficulties**
+   - Problem: Diagram tools compatibility issues
+   - Solution: Standardized on diagrams.net
+   - Lesson: Agree on tools early
+
+## Future Recommendations
+
+### For Future Group Projects:
+
+1. **Use Project Management Tools** (e.g., Trello, Asana)
+   - **Problem Solved**: Task tracking and accountability
+   - **Our Experience**: Used Trello boards successfully
+   - **Implementation**: Create boards for each phase with deadlines
+
+2. **Establish Communication Protocol Early**
+   - **Problem Solved**: Response time expectations
+   - **Our Experience**: Set 24-hour response expectation
+   - **Implementation**: Document in communication plan
+
+3. **Regular Progress Reviews**
+   - **Problem Solved**: Early detection of delays
+   - **Our Experience**: Weekly status updates prevented surprises
+   - **Implementation**: Fixed agenda: completed, planned, blockers
+
+4. **Peer Review Process**
+   - **Problem Solved**: Quality control and knowledge sharing
+   - **Our Experience**: All major changes required peer review
+   - **Implementation**: Mandatory pull request reviews
+
+5. **Version Control Best Practices**
+   - **Problem Solved**: File conflicts and version management
+   - **Our Experience**: Feature branches with descriptive names
+   - **Implementation**: Branch naming convention: feature/description
+
+6. **Documentation Standards**
+   - **Problem Solved**: Consistency and completeness
+   - **Our Experience**: Created template for all sections
+   - **Implementation**: Shared style guide and templates
+
+7. **Regular Backup Strategy**
+   - **Problem Solved**: Data<img width="2044" height="2964" alt="image" src="https://github.com/user-attachments/assets/fc465f30-55c2-4787-a563-4a23f3e923aa" />
